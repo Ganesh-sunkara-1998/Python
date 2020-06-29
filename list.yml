@@ -1,0 +1,112 @@
+list:
+  
+    -->It is a mutable sequences..
+    -->represented in []
+    -->it is uesd to collections of homogeneuous items.and also stores like hetro genenous items..
+    --> it is index based collections..
+    --> it is a ordered collections...
+
+
+    Reading items from list:
+
+        1. using index.
+        2. using For loop.
+        3. iterator.
+        4. slicing.
+
+
+    list methods:
+
+          1. s.append(x):- append 'x' to the end of the sequences.
+          2. min(s):-  smallest items of sequences.
+          3. max(s):- largest items of sequences.
+          4. del s [i:j:k] :- remove the element of s[i:j:k] from the list.
+          5. s.clear():- remove all items from s[:]
+          6. s.remove(x):- remove the first item from s where s[i] is equal to x.
+          7. s.insert(i,x):- inserts x into s at the index s[i:j]=s[x] -->i= index and x= variables
+          8. s*=n/s.update:- update s(sequences) with its content repeated n times.
+          9. s.extend:- extends s with the content of t s+=t
+          10. s.copy:- s[:] it contains
+                             1. shallow copy --> it constructs a new compound objects and then inserts references into it.to objects found in the original.
+                             2. deep copy -->it constructs a new compound objects and then recursively inserts copies into it of the objects found in the original.
+          11. s.reverse:- reverse the items of s in place.
+          12. s.index:- returns smallest index of element in list.
+          13. s.count:- returns occurence of elements in a list.
+          14. s.pop:- removes occurences of elements in a list.
+          15. s.sort:- sort elements at given index.
+          16. s.any:- checks if any element of an iterable is true (python any())
+          17. s.all:- retunrs true when all elements in iterable is true.
+          18. s. acsii:- (python ascii()) reutrns string cotaining printable representation.
+          19. python bool():- converts a vlaue to boolean.
+          20. python enumerate():- returns an enumerate object.
+          21. python filter():- constructs iterator from element which are true.
+          22. python iter():- returns an iterator for an object.
+          23. list() function:- create list of an object
+          24. s.len():- returns length of an object.
+          25. python map:- appiles functions and returns a list.
+          26. python reversed():- returns reversed iterator of a sequences.
+          27. python slice():- creates a slice object specified by range.
+          28. python sorted():- returns sorted list from given iterable.
+          29:-python sun():- add items of an iterable.
+          30:- pyhton zip():- returns an iterator of tuple.
+
+
+
+  Using list as stack:
+
+            --> stack is a data structure which fallows LIFO (Last in First out).
+            --> the value/item added last is remove first.
+
+            stack allows 2 operations:-
+
+                  1. push (adding elements)
+                  2. pop (removing elements)
+
+
+
+Nested list:
+
+      --> list within a list is called nested list.
+      --> it cantains compound objects.
+      -->it used as matrix format and we can't defined dimensions because it is not array it is sequences.
+      -->in nested list objects are organised logically by dividing in to rows and columns.
+
+
+
+      examples:
+
+              list1=[10,20,30] -->object
+              list2=[[1,2],[3,4],[5,6]] --> compound object.
+
+
+list comprehsion:
+
+        --> It means process of creating new list with efficient manner based on exisiting lsit or sequences by applying expressions.
+
+
+        syntax:   (without condition)
+
+                    [expression for var in sequence]
+
+        syntax:    (with condition)
+
+                    [expression for var in sequence condition]
+
+        syntax:    (nested for loop)
+
+                    [expression for variable in sequence1 for variable in sequence2 condition]
+
+
+"write a program to read 3X3 matrices and display....":
+
+  matrix1=[[],[],[]]
+  for i in range(3):
+    for j in range(3):
+      e=int(input("Enter your number:-"))
+      matrix1[i].append(e)
+
+  for i in range(3):
+    for j in range(3):
+      print(matrix1[i][j],end='')
+    print()
+  print(matrix1)

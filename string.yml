@@ -1,0 +1,62 @@
+#####################################################..............String Classes..........########################################################
+
+Methods of String Classes:
+
+        1. str.capitalize() --> Returns a copy of the strings with its first character capitalized and the rest lower cased.
+        
+        2. str.lower()    --> convert all are lower cased.
+        
+        3. str.swapcase()  --> Converted as upper-lower/lower-upper cased.
+        
+        4. str.title()    --> Start with Upper remaining alla re lower cased.
+        
+        5. str.upper()    --> convert all are upper cased.
+        
+        6. str.isalnum()  --> It contains Alphabets/number no special character are works.
+        
+        7. str.isalpha()  --> It contains Alphabets.
+        
+        8. str.isdecimal()  --> All are decimal characters no anthor characters.
+        
+        9. str.isdigit()    --> All are /string are digit characters only.
+        
+        10. str.center(width [,fillchar]) --> string are arranged in the center.
+        
+        11. str.endswith(suffix[,Start[,end]])  --> string ends with specified suffix otherwise return False.
+        
+        12. str.expands tabs (tab size ==8)  --> All tabs characters are replaced by one/more.
+        
+        13. str.find(sub[,start[,end]]) --> lowest index in the string where sub string sub is found within the slice.
+        
+        14. str.format(*args,**kwargs)  --> string formatting operations. it contains the replacement fields/ literal text.
+        
+        15. str.join(iterable)  --> concatenation of strings in iterable.
+        
+        16. str.ljust(width[,fillchar])  --> string left justified in a string of length and width.
+        
+        17. str.lstrip([chars])  --> The char Argument is a string specifying the set of characters to be removed.
+        
+        18. str.translate(table)  --> Each characters has to be mapped through the given Translation Table.
+        
+        19. str.maketrans(x[,y[,z]])  -->Returns a Translation Table usable.
+        
+        20. str.partition(sep)  --> Split the string at first occurenece of sep and returns 3-tuple containing the part before the seperator.
+        
+        21. str.replace(old,new[,count])  -->old string replaced by new.
+        
+        22. str.rfind(sub[,start[,end]])  -->Return the highest index string where substring is found sub string contained s[start,end]
+        
+        23. str.rjust(width[,fillchar])  -->Return the string right justified in a string of length width.
+        
+        24. str.rpartition(sep)  --> last occurenece of seperator and return 3 tuples contain the part before the seperator.
+        
+        25. str.rsplit(sep=none,maxsplit=-1)  --> Return a list of the words in the string using sep as the delimiter string.
+        
+        26. str.split(sep=none,maxsplit=-1)  --> Returns a list of the words in the string using sp as the delimiter string.
+        
+        27. str.splitlines([keepends])  --> Return a list of the lines are string boundaries in the string breaking.
+        
+        28. str.zfill(width)  --> Return a copy of the string left filled with ASCII '0' digits to make a string of length width.
+        
+        29. str.startswith()  --> string starts with specified suffix otherwise return False.
+        

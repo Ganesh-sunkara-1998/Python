@@ -1,0 +1,199 @@
+Set:
+
+    --> set is a collection but not a sequence (it is non-index based).
+    -->set is a unoredered collection where insertion order is not preserved.
+    -->a set object is an unoredered collection of distinct hashable objcts.
+    -->common uses include membership testing, removing duplicates from a sequence and computing mathematical operations.
+    -->set is a mutable collection.
+    -->set do not support indexing, slicing, or other sequence like behaviour.
+        
+        such as:
+                1. intersection.
+                2. union.
+                3. difference.
+                4. symmentric difference.
+
+
+        note:
+
+              -->set is non index based it is a hash based.
+              -->set does n't allows duplicates.
+              -->In set elements or items are organised using hashing data structure.
+
+
+
+   Hashing operation:
+
+              -->Return the hash value of the object (if it has one).
+              -->Hash value are integers.
+              -->They are used to quickly compare dictionary keys during a dictionary look up.
+              -->This hash value is used to organised objects in hash based collection.
+              -->Numeric values that compare equal have the same Hash value.
+
+        syntax:
+
+                key= hash value object % (Table size-1) 
+
+              -->The order is defined by using Hashing function.
+
+
+  How to create set...:
+
+          -->python allows to create set in two ways:-
+                1. implicit --> By defining items within {item1,item2.........}
+                2. Explicity -->By using set.
+                      ([iterable/sequence/collection])
+                        1. for loop
+                        2. iterator object.
+
+  What is the difference between list and set...:
+
+      -->list is a index based collection.
+              -->set is non index based collection.
+      -->list is ordered collection where insertion order is preserved.
+              -->set is unordered collection where insertion order is not preserved.
+      -->list allows duplicate items.
+              -->set not allows duplicate items.
+      -->It allows indexing, slicing.
+              -->It does not allows indexing, and slicing.
+
+
+method of set:
+
+          1. add(element)  -->add elements element to the set.
+          2. Remove(element)  -->Remove element (element) from the set raises key error if (element) is not contined in the set.
+          3. discard(element)  -->Remove element (element) from the set if it is present.
+          4. union(*other)     --> Return a new set with elements from the set and all others.
+                        
+                          set|other|.....
+          
+          5.intersection(*other)    -->Return a new set with elements common to the set and all others.
+                         
+                          set & other & ....
+          
+          6. difference(*others)      -->Reutrn a new set with elements in the that are not in the others.
+
+                          set - others......
+
+          7. symmentric difference (others)     ---> Return a new set with elemets in either the set or other but not both.
+
+                          set  ^ others.....
+
+comparision method:
+
+      -->This method return Boolean values.
+
+         1.is disjoint (other)    -->retrun True if the set has no elements in common with others.
+                                  -->sets are disjoint if and only if their intesection is the empty set.
+                  -->It is also used for testing purpose.
+
+         2. is subset (other)   
+
+                          set <= other
+
+                    -->Test wheather every element in the set is in other.
+
+        3. is superset (other)
+
+                          set >= other
+
+                   -->Test wheather every element in other is in the set.
+
+        4. update (*other)
+
+                        set |=other|
+
+                  -->update the set adding element from all others.
+
+             methods of update:
+
+                    1. Intersection_update (*other)
+
+                          -->update the set keeping only elements found in it and all others.
+
+                                 set & = other & ........
+
+                    2. difference _update (*others)
+
+                          -->update the set, removing elements found in others.
+
+                                set-=other|.....
+
+                    3. symmentric_difference_update (other)
+
+                          -->Update the set keeping only elements found in either set but not in both.
+
+                              set^=others
+
+
+
+
+class Frozenset ([iterable]):
+
+        -->To represent sets of sets the inner set must be Frozenset objects.
+        -->If iterable is not specified a new empty set is returned.
+        -->Return a new set or frozenset object whose elements a taken from iterable.
+        -->The elements of a set must be hashable.
+        -->It is immutable.
+
+        example:
+
+                  set1=frozenset(range(1,6))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+#iterator object by using for loop also......
+#using list.....
+
+list=[10,20,30,40]
+i=iter(list)
+print(i.__next__())
+print(i.__next__())
+print(i.__next__())
+'''for j in i:
+    print(j)'''
+
+for j in iter(list):
+    print(j)
+
+
+

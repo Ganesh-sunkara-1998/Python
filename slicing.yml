@@ -1,0 +1,53 @@
+slicing:
+      It is a process of reading more than one item/ element from string...
+
+      slicing is done two ways:-
+          1. SLICE OPERATOR.
+          2. SLICE FUNCTION.
+
+
+1. SLICE OPERATOR:
+    
+      syntax: string_name[ starting_index : ending_index : step ]
+
+              --> default start index is 0
+              --> default end index is length of string 
+              --> deafult step value is +1
+
+
+      example:
+                # general format....
+
+                  list=[10,20,30,40,50,60]
+                  print(list[0])
+                  print(list[-1::-1])
+                  print(list[0::2])
+
+                # palidrome....
+
+                  str1=input("Enter your string:-")
+                  str2=str1[-1::-1]
+                  if str1=str2:
+                      print("strings are palidrome")
+                  else:
+                      print("strings are not palidrome")
+
+
+2. SLICE FUNCTION:
+    
+      syntax:  slice(stop)
+                slice(start,stop,step)
+
+              --> slicing object /slice object are it should be reuseable..
+              --> slice object is just like range.. both the syntaxes are same..
+
+
+      example: 
+
+              # example format...
+                  s=slice(5)
+                  str1="computer"
+                  print(str1[s])
+                  s=slice(1,5,2)
+                  str2="computer"
+                  print(str2[s])

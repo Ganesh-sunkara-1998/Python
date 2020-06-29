@@ -1,0 +1,32 @@
+Tuples:
+
+      --> Tuples are immutable sequence typically used to store collections.
+      --> symbol is ().
+      --> seperated items with commas a,b,c or (a,b,c)
+      --> it is a ordered collections..
+
+
+
+what is the difference between list and tuples:
+
+    1. list --> mutable
+       tuple -->immutable.
+
+    2. --> after creating a list we can add, remove,or update items.
+       --> after creating a tuple we cannot perform any operations.
+      
+    3. --> both are index based.
+
+    4. --> both are ordered collections.
+
+--> you can create list in a tuple or vice vers.
+
+    example:
+
+            list1=[(10,20,30),(40,50,60)]
+                    or
+            tuple1=([10,20,30],[40,50,60])
+
+--> tuples comprehension has can't be done as like as list. 
+
+
