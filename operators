@@ -1,0 +1,91 @@
+##################################################### Operators.... ##########################################################################################################
+
+Arthimetic operators.:
+
+      1. binary addition (+).:
+              --> if two operands are of type strings then only we use contact.
+
+      2. binary subtraction (-).:
+               --> if two operands are of type strings then only we use.
+
+      3. multiplication (*).:
+              --> This operator performs multiplication if two operands are of type number.
+              --> This operator also repeat the sequence number if time.if first operand is sequence and second operand is number.
+                                       
+      4. float division (/).:
+              --> This operator after division it returns float value.
+
+      5. floor division (//).:
+              --> This operator after division if returns integer value.
+
+      6. modular (%).:
+              --> The % opertor yields the remainder fro the division of the first argument by the second.
+              -->The Numeric arguments are first converted to a common type.
+              --> A zero right arguments are raises the zero division error exception.
+
+      7. power of operator / exponenetential  (**).: 
+              -->The power operator binds more tightly than unary operators on its left.
+              -->It binds less tightly than unary operator on its right.
+              --> for int operands:-
+                    -->The result has the same type as the operands unless the second argument is negitive.
+                    -->In that case all arguments are converted to flaot and a float result is delivered.
+    
+
+
+Relational operators.:
+              --> These operators are used to find the relation between two operands (numbers,strings (sequence/collections)).
+              --> These operators are returns boolean values.
+                    1. Greater than (>).
+                    2. less than (<).
+                    3. Greater than or equal (>=).
+                    4. less than or equal (<=).
+                    5. not equal ooperator (!=).
+                    6. equal operator (==).
+
+
+Logical operators.:
+              --> Logical operators are used to combine two (or) more conditions (or) boolean expressions.
+                              --> 1. And --> Binary operator required 2 operands. (--> returns 2nd value.)
+                                         --> If anyone is "FLASE" in the operands then it is "FLASE".
+                              --> 2. Or --> Binary operator required 2 operands. (--> returns 1st value.)
+                                        --> If 'x' OR 'y' values are evaluted if 'x' value is "TRUE" then it is result no need to go for 'y' value.
+                                        --> If 'x' values is "FLASE" then  go to value and it is returns. 
+                              --> 3. Not --> Uniary required 1 operands.
+                                         --> The operator not yields "TRUE" if its arguments is "FLASE","FLASE" otherwise.
+Assignment operators.:
+              --> Assignment/ Argumented statement is the combination in a single statement of a binary operation and an assignment statement.
+                                  
+
+                                  1. +=           7. >>=
+                                  2. -=           8. <<=
+                                  3. *=           9. **=
+                                  4. /=           10. &=
+                                  5. //=          11. |=
+                                  6. %=           12. ^=
+                
+Bitwise operators.:
+              --> Generally bitwise only make as sences for integers.
+              --> The result of bitwise operators is calculated as though carried out in two's complement with an infinite numbers of sign bits.
+
+                    1. & - bitwise AND operator -->using logical gates.
+                    2. | - bitwise OR operator -->using logical gates.
+                    3. >> - rightshift operator -->logical operator. --> A right shift by "n-bits" is equivalent to divison by pow (2,n) without overflow check.
+                       << - leftshift operator --> logical operator. --> A left shift by "n-bits" is equivalent to multiplication by pow(2,n) without overflow check.
+                       ^ - XOR operator --> logical operator.
+                      -->sometimes in "masking" are used    
+Membership operators.: 
+              --> The operator "in" and "not in" test for membership. "x" in "s" evalutes to "TRUE" if "x" is member of "s" and "FLASE" otherwise "x" not in "s" returns the negation of "x" in "s".
+              --> All bulitin sequences and set types supports this as well as dicitionary for which in tests wheather the dicitonary has a given key. 
+                                 
+                     1. in -->number is exists.
+                     2. not in
+                  Examples:
+                              10 in [10,20,30,40,50] -->"TRUE"
+                              10 NOT in [10,20,30,40,50] -->"FLASE"
+Identity operators.:
+
+              --> The operator "is" and "is not " test for object identity:x is y is "TRUE" if and only if "x" and "y" are the same object.
+              --> object identity is determined using the id () function. "is not " y yields the inverse truth table value.     
+                                  
+                    1. is --> objects are same --> comparing id's
+                    2. is not
