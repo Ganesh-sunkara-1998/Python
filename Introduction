@@ -47,6 +47,120 @@ GENERAL PURPOSE:
       --> Python is GENERAL PURPOSE programming languages.
 
                   A programming languages used to develop any type of Applications or software is called as GENERAL PURPOSE programming languages.
+             
+   #################################################........PYTHON IDE'S ................................#################################################################
+  
+  Python IDE's:
+
+      --> While writing Python code integrating modules and libraries to build large systems a simple that editor is not enough.
+      -->We need a good integrated development environment for that.
+
+      Pycharm:
+
+            --> Created by jetbrains.
+            --> Closed source.
+            --> windows MACOS and Linux support.
+            --> Designed for Python, JAVA Script, HTML / CSS, Angular IS node.JS and more.
+            --> Features integrated unit testing code inspection, integrated version control. 
+            --> Code refactoring tools. A variety of tools for project navigation, highlightening and automated completion.
+            --> Supports multiple third party web development frameworks like Django, Pyramid, web2py, googleapp, engine and flask which makes it a complete rapid app device IDE.
+
+      SPYDER:
+       
+            --> Open Source IDE for Python.
+            --> Avaliable as free to use under MIT License.
+            --> Some of the basic features of spyder python are multi language editor, Interactive console, documentation, viewer, variable explorer, find in files file explorer etc.
+
+
+      PYTHON-IDLE:
+
+            --> An IDE that is part of Python standard library.
+            --> It is Quite helpful to try out small python snippets and experiment with different features in python.
+
+      PYTHON-Distributions:
+
+            NOTE: 
+                   PIP: It is Python Package it is used to the Install/Uninstall the Packages.
+
+            --> A Python distribution is a software bundle which contain a python interpreter and the python standard library.
+            --> Installer programs for common operating system are a frequent mode of distribution.
+            --> Many Python distribution also have package managers so that you can install or upgrade varibales python packages.
+
+                Example:-   Anaconda --> Distributions.
+                
+   ################################################...... How to Install Python Software...........########################################################
+
+Python Software:
+
+        1. python software can be downloaded from
+                        " https:\\www.python.org\download ".
+
+        2. Click on version of the software " ex:- download 3.4 ".
+        3. Just remember Install/download location.
+
+    PIP:- It is Package Management tool that means python libraries.
+
+
+
+################################################......Python Programming Languages...........########################################################
+
+      --> Python has mainly 2 basic modes.
+
+                1. Scripting modes.
+                2. Interactive modes.
+
+      --> This normal modes is the mode where the scripted and finished with .py files are run in the python interpreter.
+      --> Interactive mode is a command line shell which gives immediate  feedback for each statement while running previously fed statements in active memory.
+
+Interactive modes:
+
+    How to work with Interactive mode.....? :
+      --> Execute " python " from command prompt to run python interactive shell.
+      --> Python prompt is made up of three greater than symbols. ANd it is valid Expressions can now be Evaluted interactivally.
+      --> It is called Chevron Prompt.
+
+    How to Quite the Python shell...? :
+      --> To end the interactive sessions.
+      --> You can either use Exit () to exit. The brackets behind the exit function are crucial.
+      --> ( waarning:-  Exit without brackets works in python 2-x but doesn't works anymore in python 3-x).
+
+
+    How to compile python Program...? :
+        --> In command prompt..
+        --> address of the file where its is exists then <filename.py> 
+        --> orelse python-m py_compile <filename>
+        -->There will be a new sub directory " __ pychache__". If it hasn't already existed.
+        -->you will find the file " filename.pyc", in this sub directory.
+        --> This is the compiled version of our file in bytes code.
+                .py --> source file.
+                .pyc -->compiled file.
+              note: -m --> module include.
+        -->At interactive mode:-
+                --> import py_compile
+                --> py_compile.compile("filename")
+
+What is PATH....? :
+      --> It is a Operating System creating Environment (Temporarly).
+      --> Path is a Operating system Environment variable Which is used to set the location where python command is available.
+
+Scripting modes:
+
+        --> Open any text editor and source file with extension file as .py
+        --> Open command prompt and type the fallowing command   python <filename>
+
+    Python Internals:
+
+        --> Python is both an interpreter and an compiled languages.
+        -->Python code is transalated in to intermediate code, which has to be Executed by a virtual machine. 
+        Known as the python virtual machine this is a similar approch to the taken by java.
+        --> There is even away of Translating python programs in to Java byte code for the Java. Virtual machine (JVM this can be Archevied by Jython.
+
+
+
+
+
+
+
 
 
 
