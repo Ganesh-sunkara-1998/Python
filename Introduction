@@ -1,0 +1,63 @@
+Python Defination:
+
+          --> python is "HIGH LEVEL", "MULTIPARADIGM" and "GENERAL PURPOSE" programming language.
+
+--> Python has  supported 2 types of languages:-
+        1. programming languages --> like as C, C++, Java --> it develops any software applications.
+        2. Scripting languages --> A Small program Execued in another program script cannot Executed Individually.
+
+  1. Programming languages :
+
+    --> A language software Which provide set of instructions in order to develops Applications/software.
+    --> And it is high level language.
+    --> basically there are 2 types of level languages.
+
+          1. high level language --> Portable. --> hardware independent
+          2. low level language  --> non-portable  --> dependent to hardware.
+      note:
+
+          --> processor are "machine level language".
+          --> Inorder to translate by using compiler / Interpreter high level language to "machine level language / low level language / Assembly level languge.
+
+
+    Program:
+
+         --> It is set of data instructions fallowed by some rules.
+
+    Python Programming:
+        
+          It is mainly based on 
+            1. OOP (object oriented programming) --> Java 
+            2. POP (procedural oriented programming) --> C
+            3. FOP (Functional Oriented Programming)
+
+
+     
+  2. Scripting languages:
+
+       --> It is a small program Executed with in another program script cannot executed Individually.
+       --> Python is also always server side.
+
+MULTIPARADIGM:
+
+ --> Python is MULTIPARADIGM  programming languages and it is defined as set of rules and regulations inoder to regulation inorder to organise data and instructions.
+     
+GENERAL PURPOSE:
+
+      --> Python is GENERAL PURPOSE programming languages.
+
+                  A programming languages used to develop any type of Applications or software is called as GENERAL PURPOSE programming languages.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
