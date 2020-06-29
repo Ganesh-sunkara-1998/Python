@@ -1,0 +1,81 @@
+Python Features:
+
+      1. Easy
+      2. Expressive.
+      3. Free and Open source.
+      4. High level.
+      5. Portable.
+      6. Object Oriented.
+      7. Extensible.
+      8. Embeddable.
+      9. Interpreted
+      10. Large Standard library.
+      11. GUI programming.
+      12. Dynamically Typed.
+
+
+  1. Easy:
+      --> Python is Easy to code compared to other popular languages like JAVA snd C++ easier to code in python.
+      --> Python is Easy to read being a "high level languages " it's just like English.
+  
+  2. Expressive:
+      --> It is more understandable and Readable.
+  
+  3. Free and Open source:
+      -->Firstly python is Freely available you can download it from the fallowing link 
+              https://www.python.org./download
+      -->Secondly it is open source this means that its source code is available to the public.
+      --> You can download and distrubute anywere this is called FLOSS/FREE/LIBRE and "open source software".
+  
+  4. High-level :
+      --> It is High level languages independent to hardware.
+  
+  5. Portable:
+      --> your code is runs on any type of machine then it is no need to write different codes for different machines.
+ 
+  6. Object Oriented:
+      -->Python is a Object Oriented languages but Object Oriented is not a language.
+      --> Object Oriented is programming paradigm (set of rules and regulations).
+      --> Every object having 2 properties:- 
+                                            1. properties.
+                                            2. state.
+
+      --> principles:- 
+                      1. Encapsulation. --> grouping of data.
+                      2. Polymersim. --> it controls parent class object from child class object.
+                      3. Inheritence.  --> multiple class accessing.
+
+  7. Extensible:
+        -->you can write your python code in another languages.
+  
+  8. Embeddable:
+        -->your python code in another languages. 
+  
+  9. Interpreted:
+        -->In interpreter your source code is executed line by line.
+          
+          Translator:
+                There are 2 types of Translators are they :-
+                          1. Interpreter. --> line by line translates.
+                          2. Compiler.  --> it transalate our whole program.
+  
+  10. Large Standard library:
+        --> library: set of Predefined programs.
+        
+        --> one of the reason pyhton is more popular.
+        
+        -->source code:
+                 The code  which written in High level languages  then it is known as "source code".
+  
+  11. GUI programming:
+          -->Graphical user interface can be can be developed by python.
+  
+  12. Dynamically Typed:
+          -->Python is Dynamically Typed language.(run time).
+          -->The C, C++, JAVA, and .NET are statically typed languages. These languages uses data types inoder to create variables.
+          -->Types of variables known before Execution of program.
+          --> In Python variables are creates without Explicity defining datatypes. Types of varibales is known as Runtime based on the value assigned.
+          -->Variables in pyhton are polymerphic whose behaviour changes based on type of values assigned.
+
+
+
