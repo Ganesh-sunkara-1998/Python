@@ -1,0 +1,115 @@
+
+################################### Character Set Of Python Language.... ##################################################################################
+
+  --> In C-Language their are --> 256 Characters in ASCII (American standard code for information interchange)
+  --> In python language --> 65536 Characters in ASCII unicode for Encode/Decode.
+
+        ASCII: -->It contains only letters in English.
+        Unicode: -->It contains any type of language.
+
+  -->Python is a universal language it supports characters of different language.
+
+    --> python uses two encoding standards:-
+
+            1. ASCII.
+            2. Unicode.
+
+        -->Python Programming can be written using "65536" characters.
+          
+
+################################### TOkENS.... ###########################################################################################################################################
+
+
+Token :
+    
+
+      1.	Keywords (33)
+      2.	Identifiers
+      3.	Literals
+      4.	Operators
+      5.	Data types.
+
+      
+
+      Keyword belongs to valve : True, Flase, None
+      Keyword belongs to control statements : if, ifelse, else, while, for, break, continue, pass, return
+      Keyword belongs to functions and modules: def, with, as, import, from, global, local, yield, lambda 
+      Keywords to operators: And, or, not, is, in, del  
+      Keyword belongs to classes: class
+      Keyword belongs to error/exception handing: try, except, finally, raise, assert
+
+
+      Identifiers:
+                  
+                It is user defined words.
+                  --> Identifiers is the name given to entities like class, functions variables and etc.,
+                  -->It helps differentiating one entity from another.
+                  -->Identifiers is a collection of aplhabets, digits and allows one special characters.
+
+              Rules for writing identifiers:
+                -->Identifiers can be combination of letters in lower case (a to z) or uppercase (A to Z) or digits (0 to 9) or an underscore (_).
+                -->Name like myclass,var_1 and print_this_to-screen all are valid example.
+                -->An identifiers cannot start with a digits-1 varibales is invalid but variable 1 is perfectly fine.
+                -->keywords are cannot be used as identifiers. 
+
+      Literals:
+
+                Syntaxical representation of a value / constant.
+
+                -->Python allows to represent integer values in 4 formats..
+                      1. Decimal Integers.
+                      2. Octal Integers.
+                      3. Hexa Decimal Integers.
+                      4. Binary Integers.
+
+
+            Decimal Integers.:
+                  --> An integer values with base 10 is called decimal integers.
+                  --> This integers consists of digits from 0 to 9.
+                  --> This integers prefix with (+) or (-).
+                  --> It does not allows any special characters.
+
+            Octal Integers:
+                  --> An integer values with base 8 is called as Octal integer.
+                  --> This integers consists of digits from 0 to 7.
+                  --> This integers prefix with 0o.
+
+            Hexa Decimal Integers:
+                  --> An integer values with base 16 is called hexa decimal integers.
+                  --> This integers consists of digits from 0 to 9 and a-f.
+                  --> This integers is prefix with 0x/ox.
+
+            Binary Integers:
+                  --> An integer value with base 2 is called binary integers.
+                  --> This integers consists of 0's and 1's.
+                  --> This integers prefix with 0b and 0B.
+
+
+
+      Operators:
+              -->Operators is a special symbol which performs some operations.
+              -->Each operators in python is bind with a function/method.
+              -->python operators are characterised in different forms.
+                          1.Arthimetic operators.
+                          2.Relational operators.
+                          3.Logical operators.
+                          4.Assignment operators.
+                          5.Bitwise operators.
+                          6.membership operators.
+                          7.Identity operators. 
+            
+              
+
+      Data types:
+        
+            1.  Standard data types: int, float, complex, bool, none  it holds only single value.
+            2.  Collection data types: list, tuple, set, frozenset, dicitionary, string, range it holds sequential values.
+
+
+--> Mutable:- after creating object whose value are changed.
+--> Immutable :- it can’t modify but shared
+
+
+
+
+
