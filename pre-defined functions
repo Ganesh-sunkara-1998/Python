@@ -1,0 +1,97 @@
+##########################################.............. PRE-DEFINED FUNCTIONS...................#######################################################################
+Input and Output Operations:
+
+        Input:
+            --> Data/Information given to the program.
+            --> In Input data is Flow inside the program.
+
+          Perform Input Operations:
+
+              Syntax:  Input([prompt])
+
+                --> If the Prompt Arguments is present, it is written to Standard output without a trailing newline.
+                --> The Functions then reads a line from input converts it to a string (stripping a trailing newline). and returns that.
+                --> This function read data from keyboard.
+                --> This function returns the value are string value.
+                --> This funciton reads only one value.
+
+        Output:
+            --> Data/Information given by the program.
+            --> In Output data is flow outside the program.
+
+          Perform Output Operations:
+
+            print () function:
+                --> print () is predefined function in Python.
+                --> This function is available in bulitin modules/lib.
+                --> default module is imported by any python program in bultins.
+
+                syntax:
+                      print(*object,sep=' ',end='\n',file=sys.stdout,flush=flase)
+
+                --> print objects to the text stream file, seperated by "sep" and fallowed by end.sep end.file and flush it present, must be given as Key Arguments.
+                      (given values with name that is called as keyword Arguments)
+
+                --> print(*objects) --> variable length arguments. -->tuple --> collections --> it receives more than 1 value.
+                         (objects) --> It receives only one value.
+
+                file=sys.stdout --> stores in console file.         
+
+RANGE:
+
+    --> The range type represents on immutable sequence of numbers and is commonly used for looping a specific numbers of times in for loop.
+
+                  range(stop)
+                  range(start,stop[,step])
+    --> The Arguments to the range constructor/ function must be integers.
+    -->if the step Arguments is omitted. it defaults to if the start Arguments in comitted it defaults to 0. if step is Zero "value error is raised".
+
+          range(5) -->0,1,2,3,4 --> stop=5, start=0, step=1
+          range(-5)  -->"always the step value should be greter than start value".
+                      --> start=0, stop=-5, step=-1.
+
+    --> for a positive step the content of a range r are determined by the formula.
+
+              r[i] = start + step*i     where  i>=0 and r[i]<stop
+
+    --> for a negitive step the content of the range are still determined by the formula.
+
+              r[i] = start + step*i      where  i>=0 and r[i]>stop
+
+    --> range (5{start}, 1{stop}, -1{step})
+    --> A range object will be empty if r[0] doesn't must the value contant range.
+        do support negative indices but these are interpreted as indexing from the end of the sequence determined by the positive indices.
+
+BREAK:
+    
+      --> Break may only occurs syntactically nested in a for or while loop but not nested in a function or class defination within that loop.
+      --> It termiantes the nearest enclosing loop skipping the optional else cause if the loop has one.
+      --> BREAK statement is used to terminate loop (while/for).
+               
+                while <condition>:
+                      Break  --> it's termiantes the loop
+CONTINUE:
+
+      --> Continue may only occurs syntactically nested in a for a while loop.
+      --> But not nested in a function/class defination.
+      --> It continous with the next cycle of the nearest enclosing loop.
+
+              while <conditon>:
+                  continue    ---> It's continous the loop.
+
+
+PRE-DEFINED functions:
+
+    ord():
+          --> syntax:- ord(c)
+          --> Given a string representing one unicode character return an integer representing the unicode point of that character.
+          --> ord('a') -->returns the integers - 97.
+          -->ord('A') --> 65 .. ord('a') -->97.
+
+    chr():
+          --> syntax:- chr(i)
+          --> Return the string representing a character whose unicode code point is the integer i .
+          --> chr(65) --> 'A'. ...chr(97)  -->'a'.      
+
+
+
