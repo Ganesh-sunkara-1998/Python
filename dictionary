@@ -1,0 +1,133 @@
+Dictionary:
+
+      -->Dictionary(dict) contains pairs of values which is keys and values.
+      -->It is map collection. (It mapped one/more than values).
+
+    Mapping type dictionary:
+
+            mappingType_dict
+
+      --> A mapping objects maps hashable values to oribitary objects.
+      --> Mapping are mutable objects.
+      --> There is currently only one standard mapping type the dictionary.
+
+    Differential operation of dictionary and list:
+
+        --> dict={keys:values}
+
+            example: 
+
+                    empno:101 --> (here empno is key and that related value is 101).
+        
+                --> list=[values]
+
+        --> Dicitonary is key based.
+                --> list is index based.
+        -->one key is mapped with one or more than one value.
+                -->no need key in the list.
+        -->duplicate keys are not allowed but duplicate values are allowed.
+                -->duplicate values are allowed.
+        -->keys must be hashable these objects must have hashable hashcode.
+                -->no need of hashcode because it is index based.
+
+
+    How to create a dictionary:
+
+        1. class dict(**kwarg)
+        2. class dict(mapping,**kwarg)
+        3. class dict(iterable,**kwarg)
+
+      syntax:
+
+            {key:value,key:value,key:value}
+
+
+    Note:
+
+        1. keys are immutable.
+        2. values are mutable.
+        3. dicitonary is mutable.
+
+
+    view of dictionary:
+
+          -->keys are set view.
+          -->values are list view.
+          -->combination of keys and values are dicitonary.
+
+
+  Operation of dicitonary:
+
+        1. len(d):- Returns the number of items in the dictionary.d
+        2. d[key]:- Return the items of d with ther key.
+                    Key raises a key error if key is not in the map.
+        3. d[key]=values:- set d[key] to value/updating values.
+        4. del d[key]:- Remove d[key] from d. Raises a key error.
+                        If key is not in the map.
+
+        items operator:
+
+            1. key in d (key in dictionary):-
+                      -->Return True if d has a key "key". else False.
+            2. key not in d (key not in dicitionary):-
+                      -->Equivalent to not key in d.
+            3. iter(d):- Return an iterator over the keys of the dictionary.
+            4. clear():- Remove all items from the dicitonary.
+            5. copy():-  Return a shallow copy of the dicitonary.
+            6. class method from keys (iterable [,value]):-
+                      -->create a new dicitionary with keys from iterable and values set to values.
+            7. get(key[,default]):-
+                      -->Return key value. if key in dictionary else default else none.
+              
+              7(a). d[key]:-  key error if key is not exists.
+              7(b). d.get(key):- if key is not exists it returns none.
+              7(c). d.get(key,[value]):-  if key is not exists it values returns.
+
+            8. keys():- Returns a new view of the dictionary's key.
+            9. values():- Returns a new view of the dictionary's values.
+            10. update([other]):-
+                        -->Update the dictionary with the key/values pair from other overwriting existing key.
+            11. items():- Retruns view of dictionary's (key,value) pair.
+            12. popitem():- Returns and removes element from dicitonary.
+            13. setdefault():- Inserts key with a value if key is not present.
+            14. pop():- Removes and returns element having given key.
+            15. any():- checks if any elements of an iterable is True.
+            16. all():- Returns True when all elements in iterable is True.
+            17. ascii():- Returns string containing printable representation.
+            18. bool():- converts a value to boolean.
+            19. dict():- creates a dictionary.
+            20. enumerates:- returns an enumerate objects.
+            21. filter():- constructs iterator from elements which are True.
+            22. max():- Returns largest elements.
+            23. min():-Returns smallest elements.
+            24. map():- appiles functions and returns a list.
+            25. sorted():- Returns sorted list from a given iterable.
+            26. sum():- Add items of an iterable.
+            27. Zip():- Returns an iterator of tuple.
+
+    Note:
+
+          --> Values can't be delete but we can update.
+          -->keys is delete.
+                        
+
+  zip function:
+      -->It Assigned keys and values according to the order of elements.
+      -->Not only list we can use set also. but not applicable tuple because it is immutable.
+
+      Example:
+
+          list1=[1,2,3,4,5]
+          list2=['a','b','c','d','e']
+          dict1=dict(zip(list2,list1))
+          print(dict1)
+
+
+
+
+
+
+
+
+
+
