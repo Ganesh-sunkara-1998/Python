@@ -1,0 +1,41 @@
+###############################################.......Python Implementations............##############################################
+
+Python is Actually a specification for a language that can be Implemented in different ways.
+
+CPython:
+
+  --> The Default Implementation of the Python Programmable language is python.
+  --> As the name suggests "CPython" written in C-language.
+  --> CPython Compile the python source code in to Intermediate bytecode, which executed by the CPython virtual machine (PVM).
+  --> CPython is distributed with a large standard library written in a mixture of C and Python.
+  --> CPython provides the highest level of compatibility with Python Packages and C Extension modules.
+
+      py.python --> Python compiler --> Byte code --> PVM (Python virtual machine.{In C-language})  --> Native Code --> processor.
+        ^           ------------------------------------------------------------------------------
+        |                     CPython Software             
+      Python program 
+  --> All version of the python language are Implemented in C because CPython is the reference Implementation.
+
+
+Jython:
+
+  --> Python Implemented in JAVA.
+
+      py.python --> Python compiler --> Byte Code --> JVM (JAVA virtual machine). ---> Python Byte code (or) Java bytecode 
+        ^           -------------------------------------------------------------
+        |           Jython Software                                             
+
+  --> Jython is a python Implementation that compiles python code to java byte code which is then executed by the JVM (JAVA virtual machine).
+  --> Additionally it is able to import and use any JAVA class like a python module.
+  --> Jython currently supports upto python 2.7
+
+(.NET) Iron Python:
+
+  --> Iron Python is a Implementation of python for the .NET Frame work.
+  --> It can use both python and .NET Frame work libraries and can also Expose python code to other language in .NET Frame work.
+  --> Iron Python supports Python 2.7
+
+PY.Python:
+  
+  --> Python is a python interpreter Implemented in a restricted statically typed subset of the python language called "R-Python".
+  --> Python supports Python 2.7     
