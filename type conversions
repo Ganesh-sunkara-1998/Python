@@ -1,0 +1,108 @@
+Type conversions:
+
+          --> we can convert one datatype in to another datatype easly in python so that...
+
+            example:
+
+                list =[10,20,30,40,50,60]
+                tuple1=tuple(list)
+
+          --> in tuple we cannot perform any operations so that we need to convert in to list or set so that we can perform anu operations.
+
+        --> not only collectional data types even it is applicable for standard datatypes also then..
+
+          example:
+              b= 1.5 -->float value
+              a=int(b)
+-->similary any data types conversion as fallows simple technic as like above in python programming language...
+
+
+
+======================== Type conversions ======================================:
+
+|conversion functions:
+
+          --> To perform Arithemetic operations.
+          --> Returns an integer objects constructed from a number or string x, or return 0 if no arguments are given.
+      int () functions:
+
+          syntax 1 = int([x])
+          syntax 2 = int(x,base=10)
+
+          oct(x): convert an integer number to an octal string predefined with "0o".
+          hex(x): convert an integer number to lower case hexa decimal string prefixed with "0x".
+          bin(x): convert an integer number to a binary string predefined with "0b."
+
+      All this are string type this will returns the string value.
+
+      Duck Typing: There is no type casting but their is a type conversion.
+
+      Float([]) functions:
+
+            --> Returns a Floating point number constructed from a number or a string x. 
+
+|Replacement field:
+
+      1. Formatting standard datatypes.
+      2. Alignment options.
+      3. sign options.
+
+
+  1. Formatting standard datatypes:-
+
+     int:
+
+        --> 'b'  binary format --> base 2.
+        --> 'c'  character format.
+        --> 'd'  decimal format.   -->base 10.
+        --> 'o'  octal format   --> base 8.
+        -->'x'   hexa format    --> base 16.
+        -->'n'   number  
+
+          example:
+
+              a=10,b=20,c=30
+              print("{:d}".format(a))
+              print("{:o}".format(b))
+              print("{:d}{:o}{:x}".format(a,b,c))
+
+      float:
+
+          --> 'e', 'E'    Exponential notation.
+          -->'f','F'     fixed point notation.
+
+              example:
+
+                    a=1.5,b=2.5
+                    print("a={:2f},b={:2e},".format(a,b))
+
+      string:
+
+           -->'s'   The default type for strings and may be omitted none.
+                    The same as 's'.
+  
+
+  --> Above format are in 2-X version.
+
+  Then 3-X version is:-
+
+          example:
+
+                name = "naresh"
+                age = 40
+                print ("my name is "{name} "and age is "{age})
+  
+
+  2. Alignment options:-
+
+        '<'  -->left alignment.
+        '>'  -->right alignment.
+        '^'  --> centered space available.
+
+
+  3. sign option:-
+
+          '+'   -->postive numbers.
+          '-'   --> negetive numbers.
+          
+
